@@ -1,0 +1,37 @@
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+ padding-top: 50px;
+ font-variant: var(--font2);
+ font-size: 10vw;
+}
+
+header> p{
+    padding-bottom: 50px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+section{
+padding-top: 10vh;
+padding-bottom: 10vh;
+line-height: 2em;
+padding-left: 30px;
+font-family: var(--fonte3);
+font-size: 3.5vw;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
